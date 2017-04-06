@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class probnik {
-
+//  test GIT
     public WebDriver driver;
     public String baseUrl = "http://ukrposhta.ua/";
 
