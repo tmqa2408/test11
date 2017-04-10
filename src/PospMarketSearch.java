@@ -20,7 +20,7 @@ public class PospMarketSearch {
         driver.findElement(By.linkText("ПОШТОВІ МАРКИ")).click();
         driver.findElement(By.cssSelector("img[alt=\"Марки\"]")).click();
         driver.findElement(By.xpath("(//a[contains(text(),'Детальніше >>')])[2]")).click();
-
+        System.out.println("Виконано пошук в Міні Маркет ");
         driver.quit();
 
     }
