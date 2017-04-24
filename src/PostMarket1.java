@@ -20,5 +20,7 @@ public class PostMarket1 {
         driver.findElement(By.cssSelector("input[type=\"submit\"]")).click();
 
         driver.quit();
+
+
     }
 }
