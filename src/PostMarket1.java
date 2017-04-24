@@ -11,7 +11,6 @@ public class PostMarket1 {
 
     @Test
     public void main() {
-
         System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
         driver = new ChromeDriver();
 
@@ -21,6 +20,5 @@ public class PostMarket1 {
         driver.findElement(By.cssSelector("input[type=\"submit\"]")).click();
 
         driver.quit();
-
     }
 }
