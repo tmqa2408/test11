@@ -2,12 +2,6 @@
                     <!-- ========== Initialize Properties =================================== -->
                     <!-- set global properties for build -->
 
-                 <taskdef name="testng" classname="org.testng.TestNGAntTask">
-                     <classpath>
-                         <pathelement location="lib/testng-6.8.7.jar"/>
-                     </classpath>
-                 </taskdef>
-
                     <property name="basedir" value="." />
                     <property name="lib" value="${basedir}/lib" />
                     <property name="src" value="${basedir}/src" />
