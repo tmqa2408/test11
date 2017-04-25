@@ -37,6 +37,7 @@ public class Rozetka {
 
             System.out.println("Вход в интернет-магазин - OK!");
 
+            driver.quit();
         }
 }
 
