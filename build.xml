@@ -34,8 +34,7 @@
                     </target>
 
                     <!-- Runs the file and generates Reporting report for TestNG-->
-                    <taskdef name="testng" classname="org.testng.TestNGAntTask" classpathref="classpath" />
-
+                 <taskdef resource="testngtasks" classpath="${lib}/testng-6.8.7.jar"/>
                     <target name="Run-test" depends="compile">
                         <mkdir dir="${testng-report-dir}" />
                         <testng outputdir="${testng-report-dir}" classpathref="classpath" useDefaultListeners="true">
